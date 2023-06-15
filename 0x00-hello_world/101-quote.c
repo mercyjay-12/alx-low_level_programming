@@ -1,11 +1,12 @@
-#include <stdlib.h>
+#include <stdio.h>
+#include <unistd.h>
 /**
-* main - Entry point
+* main - Entry
 *
-* Return: Always 1 (Success)
+* Return:1
 */
 int main(void)
 {
-system("echo 'and that piece of art is usefl\" \ - Dora Korpar, 2015-10-19'");
+write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 return (1);
 }
